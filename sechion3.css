@@ -1,0 +1,30 @@
+.section3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+.map {
+    position: relative;
+    width: 100%;
+    padding-top: 70%; /* 比率を4:3に固定 */
+    margin-top: 60px;
+   }
+   .yosou{
+     margin-top: 0px;
+   }
+  
+  /* Google Mapのiframe */
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+  .yosou{
+    font-size: 15px;
+    text-align: center; 
+ }
+.yosou a{
+    color: black;
+}
+  

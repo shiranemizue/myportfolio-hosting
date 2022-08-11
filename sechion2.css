@@ -1,0 +1,70 @@
+
+.section2{
+    font-size: 50px;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: bold
+}
+.nedan{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    }
+
+.nedan1{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+    
+}
+.nedan2{
+    width: 400px;
+    text-align: center;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+.nedan3{
+    width: 400px;
+    text-align: center;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+}
+.nedan p{
+    color: gray;
+}
+.nedan1 h3{
+    color: red;
+}
+
+@media(max-width:1000px){
+    .section2 p{
+    font-size:35px;
+}
+}
+@media (max-width:500px){
+    .section2{
+        font-size:20px;
+        text-align: left;
+        margin-left: 40px;
+       }
+ .nedan1{
+        margin: auto;
+        width: 90%;
+    }
+    .nedan{
+       flex-wrap:wrap;
+    }
+.nedan3{
+          margin-left:0 auto;
+          width: 40%;
+          margin-top: 20px;
+      }
+.nedan2{
+          margin-left:0 auto;
+          width: 40%;
+          margin-top: 20px;
+      }
+    }

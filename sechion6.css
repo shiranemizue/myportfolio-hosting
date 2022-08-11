@@ -1,0 +1,118 @@
+.section6{
+   background-color: #d3d3d3;
+   border: solid 1px #d3d3d3;
+   max-width: auto;
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+   height: 600px;
+   border-radius: 10px;
+   margin: 60px auto 60px auto;
+    }
+.wrap{
+    width: 100%;
+}
+.aircover{
+  width: 50%;
+  text-align: center;
+  height: 300px;
+  padding-top: 60px;
+    
+}
+.aircover h3{
+    padding-top: 60px;
+    letter-spacing: 0.5em;
+}
+.aircover img{
+    width: 300px;
+    height: 150px;
+
+}
+.sumizumi .button003{
+    padding-top: 50px;
+}
+.sumizumi{
+    margin-top: -300px;
+    width: 50%;
+    text-align: center;
+    height: 300px;
+}
+.sofa{
+    width: 50%;
+    padding-top: 50px;
+    text-align: right;
+}
+
+.sofa img{ 
+    width: 500px;
+    height: 400px;
+}
+
+.last{
+    border: solid 1px #333;
+    background-color: black;
+    width:100%;
+    margin-top:100px;
+}
+.last p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.last h3{
+    color: white;
+    text-align: center;
+
+}
+@media(max-width:1000px){
+    .section6{
+    margin-right: 100px;
+    width: 90%;
+    margin:60px auto 60px auto;
+    
+    }
+    .aircover img{
+        width: 200px;
+        height: 100px;
+        margin: auto;
+    }
+    .sofa img{
+        width: 250px;
+        margin: auto;
+    }
+    .last p{
+        font-size: 30px;
+    }
+}
+@media(max-width:500px){
+   .section6{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 800px;  
+        margin-top: 100px;
+ }
+ .aircover{
+    padding-top: 30px;
+    width: 100%;
+   }
+ .aircover img{
+      height: 150px;
+      width: 90%;
+      }
+ .sofa{
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -30px;
+}
+  .sofa img{
+    height: 300px;
+    width: 100%;
+}
+.sumizumi{
+  width: 100%;
+  margin-top: 60px;
+  }
+}
